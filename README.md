@@ -109,6 +109,7 @@ Expected outcomes:
 
 ## 🗂 Repository Structure (Suggested)
 undefined
+\\\
 .
 ├── data/
 │ ├── source_domain_1/
@@ -130,28 +131,8 @@ undefined
 │ └── metrics.py
 │
 └── README.md
+\\\
 undefined
-.
-├── data/
-│ ├── source_domain_1/
-│ ├── source_domain_2/
-│ └── target_domain/
-│
-├── models/
-│ ├── encoder.py
-│ ├── mapping_layer.py
-│ └── domain_classifier.py
-│
-├── training/
-│ ├── pretrain.py
-│ ├── train.py
-│ └── few_shot_eval.py
-│
-├── utils/
-│ ├── dataset_loader.py
-│ └── metrics.py
-│
-└── README.md
 
 ---
 
