@@ -131,6 +131,27 @@ Expected outcomes:
 │
 └── README.md
 
+.
+├── data/
+│ ├── source_domain_1/
+│ ├── source_domain_2/
+│ └── target_domain/
+│
+├── models/
+│ ├── encoder.py
+│ ├── mapping_layer.py
+│ └── domain_classifier.py
+│
+├── training/
+│ ├── pretrain.py
+│ ├── train.py
+│ └── few_shot_eval.py
+│
+├── utils/
+│ ├── dataset_loader.py
+│ └── metrics.py
+│
+└── README.md
 
 ---
 
@@ -141,15 +162,3 @@ Expected outcomes:
 python training/pretrain.py --config configs/pretrain.yaml
 python training/train.py --domain_source tech --domain_target agriculture
 python training/few_shot_eval.py --k_shot 5
-
-## 🛠 Technologies & Methods
-
-Python / PyTorch
-
-Contrastive & mutual-information training
-
-Domain adaptation techniques
-
-Few-shot meta-learning
-
-Multi-domain feature alignment
