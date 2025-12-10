@@ -141,3 +141,15 @@ Expected outcomes:
 python training/pretrain.py --config configs/pretrain.yaml
 python training/train.py --domain_source tech --domain_target agriculture
 python training/few_shot_eval.py --k_shot 5
+
+## 🛠 Technologies & Methods
+
+Python / PyTorch
+
+Contrastive & mutual-information training
+
+Domain adaptation techniques
+
+Few-shot meta-learning
+
+Multi-domain feature alignment
